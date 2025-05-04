@@ -35,6 +35,8 @@ time: 773.195333ms to fetch blog page
 Process finished with exit code 0
 ```
 
+I can't get the complete execution time here :S. 
+
 * Running from gradlew locally on my MBP, JDK 23 and 0.2.3 Ksoup:
 
 ```bash
@@ -57,6 +59,9 @@ title: Wikipedia:Getting to Philosophy - Wikipedia
 time: 55.240125ms to fetch Wikipedia page
 title: Julien's DevRel corner
 time: 249.742709ms to fetch blog page
+BUILD SUCCESSFUL in 1m 3s
+2 actionable tasks: 1 executed, 1 up-to-date
+
 ```
 
 * [Running from GitHub actions, JDK 23 and 0.2.3 Ksoup](https://github.com/jlengrand/ksoup-test-119/actions/runs/14819932018/job/41605487243):
